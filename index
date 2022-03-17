@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>"ONG- AYUDA UN PELUDO"</title>
+</head>
+<body>
+ <p>   <center>
+    <h1> ONG- AYUDA UN PELUDO </h1>
+    <tbody> 1212 </tbody>    
+</center></p>
+<p>
+    <row>
+    <center>
+        
+    <h1>Nuestros integrantes</h1>
+
+
+        <li>Reinaldo Fernandez</li>
+        <li>Guillermo Arenas</li>
+
+
+    </center>
+    
+
+    </row>
+</p>
+<p>
+    <center>
+    <h1>Nuestras secciones de ayuda: </h1> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Cat_Sphynx._img_025.jpg/245px-Cat_Sphynx._img_025.jpg" class="rounded mx-auto d-block" alt="imagen de gato" <span img{float:rigth;}></span>>
+    <a href="C:\Users\Guillermo\Desktop\Paginas\gato.html">Gatos</a>
+
+</center>
+</p>
+<p>
+    <center>
+    img{float:left;}    <div style="text-align:center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_types_3.jpg/250px-Coat_types_3.jpg" class="rounded mx-auto d-block" alt="imagen de perro"></div>
+    <div style="text-align:right"> <a href="C:\Users\Guillermo\Desktop\Paginas\perro.html">Perros</a></div>
+</center>
+</p>
+<div style="text-align:center"></div>
+img{float:left;} <img{float:right;} >  
+</body>
+
+</html>
