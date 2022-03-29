@@ -1,7 +1,157 @@
-
-img{text-align: center;
-    margin:auto;
-    width: 20%;
-    padding:11px;}
+*{margin: 0;
+padding: 0;}
+.img{float: right;}
 #rojito{text-align: center;
     color :red;}
+#colorp{background-color: peachpuff;}
+.tamano{width: 70%;
+height: 70px;}
+#tamano{width: 1165px;
+        height: 500px;
+        align-items: center;
+       }
+#item{align-items: center;}
+#black{color: black;}
+.carouselExampleIndicators{margin: 20%;}
+.carousel-item{border: 1px solid black;
+    height: auto;
+    align-items: center;}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    top: 100;
+    height: 10px;
+    width: 10px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20%;
+    text-align: center;
+    
+}
+#icono{width: 100px;
+    height: 100px;}
+.ayuda{font-family: 'ayuda'cursive;}
+.red-text{color: rgb(219, 59, 59);}
+.centro{text-align: center;
+align-items: center;
+align-content: center;
+align-self: center;}
+.mascota img{
+    width: 100%;
+height: 100%;
+border-radius: 0%;
+margin-top: 0%;
+position: absolute;
+object-fit: cover;
+}
+.tarjeta {border-radius: 10%;
+position: relative;
+width: 200;
+height: 250px;
+background-color: peachpuff;
+box-shadow: 0 0px 0px;
+margin: 20px;
+
+}
+.tarjeta .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.5s;}
+.tarjeta .front{
+    transform: perspective(600px)rotateY(0deg);
+    box-shadow: 0 5px 10px black;}
+.tarjeta .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 80%;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    background: rgba(0, 0, 0, 0.3);}
+.tarjeta .back{
+    transform: perspective(600px)rotateY(180deg);
+    background: rgb(238, 185, 139);
+    padding: 15px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;}
+.tarjeta .back .link{    
+    height: 50px;
+    line-height: 50px;}
+.tarjeta .back .link a{
+    color: rgb(0, 0, 0);}
+.tarjeta .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+margin-top: 0%;}
+.tarjeta .back p{letter-spacing: 1px;}
+.tarjeta:hover .front{transform: perspective(600px) rotateY(180deg);}
+.tarjeta:hover .back{transform: perspective(600px) rotateY(360deg);}
+header{height: 100%;
+background-color: rgb(241, 59, 59);
+height: 70px;}
+.ancho{width: 80%;
+height: 70px;
+background-color: rgb(241, 59, 59);
+margin: auto;}
+.logo{width: 30%;
+height: 70px;
+background-color: rgb(241, 59, 59);
+float: left;
+padding-top: 10px;
+box-sizing: border-box;}
+.logo p a{
+    color: peachpuff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+nav{width: 50%;
+height: 70px;
+background-color: rgb(241, 59, 59);
+float: left;
+text-align: right;
+padding-top: 24px;
+box-sizing: border-box;}
+nav ul li { display: inline;
+}
+nav ul li a{color: peachpuff;
+font-size: 13px;
+text-decoration: none;
+text-transform: uppercase;
+padding-left: 15px;
+font-weight: bold;
+letter-spacing: 1px;}
+.icono{width: 20%;
+    height: 70px;
+    background-color: rgb(241, 59, 59);
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+float: inline-start;}
+
+.icono img{width: 16%;
+height: 30px;
+color: peachpuff;
+font-size: 40px;
+text-decoration: none;
+font-weight: bold;
+}
+.tarjeta .back .col th{text-align:right}
+
